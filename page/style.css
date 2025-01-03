@@ -69,7 +69,7 @@ header>a:nth-child(1){
 .page1-img{
   width: 100%;
   height: 953px;
-  background-image: url(./imges/메인사진.jpg);
+  background-image: url(./imges/main.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -147,16 +147,16 @@ header>a:nth-child(1){
   background-size: cover;
 }
 .process>div:nth-of-type(1){
-  background-image: url(./imges/커피콩수확.jpg);
+  background-image: url(./imges/bean2.jpg);
 }
 .process>div:nth-of-type(2){
-  background-image: url(./imges/로스팅.jpg);
+  background-image: url(./imges/losting.jpg);
 }
 .process>div:nth-of-type(3){
-  background-image: url(./imges/커피1.jpg);
+  background-image: url(./imges/coffee1.jpg);
 }
 .process>div:nth-of-type(4){
-  background-image: url(./imges/커피2.jpg);
+  background-image: url(./imges/coffee2.jpg);
 }
 .process>div>a{
   text-align: center;
@@ -193,7 +193,7 @@ header>a:nth-child(1){
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./imges/티라미수.jpg);
+  background-image: url(./imges/cake3.jpg);
   background-size: cover;
 }
 .t>a>p{
@@ -213,10 +213,10 @@ header>a:nth-child(1){
   background-size: cover;
 }
 .desert>div:nth-last-of-type(1){
-  background-image: url(./imges/레몬케이크.jpg);
+  background-image: url(./imges/cake1.jpg);
 }
 .desert>div:nth-last-of-type(2){
-  background-image: url(./imges/오렌지케이크.jpg);
+  background-image: url(./imges/cake2.jpg);
 }
 .desert>div>a>p{
   text-align: center;
@@ -252,15 +252,15 @@ header>a:nth-child(1){
 }
 .coffee>div:nth-of-type(1){
   flex: 1;
-  background-image: url(./imges/커피콩.jpg);
+  background-image: url(./imges/bean1.jpg);
 }
 .coffee>div:nth-of-type(2){
   flex: 2;
-  background-image: url(./imges/추출.jpg);
+  background-image: url(./imges/eatraction.jpg);
 }
 .coffee>div:nth-of-type(3){
   flex: 1;
-  background-image: url(./imges/콜드브루.jpg);
+  background-image: url(./imges/coldbrew.jpg);
 }
 
 /*** 모바일/태블릿 ***/
