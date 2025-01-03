@@ -51,7 +51,7 @@ header>nav{
 }
 header{
   height: 100%;
-  background-image: url(./imges/메인.jfif);
+  background-image: url(./imges/main.jfif);
   background-size: cover;
   color: #fff;
   font-size: 13px;
@@ -110,22 +110,22 @@ main>div.card div.card-txt>p.small{
   font-size: 14px;
 }
 main>div.one{
-  background-image: url(./imges/차1.jfif);
+  background-image: url(./imges/car1.jfif);
 }
 main>div.two{
-  background-image: url(./imges/차2.jfif);
+  background-image: url(./imges/car2.jfif);
 }
 main>div.three{
-  background-image: url(./imges/차3.jfif);
+  background-image: url(./imges/car3.jfif);
 }
 main>div.four{
-  background-image: url(./imges/차4.jfif);
+  background-image: url(./imges/car4.jfif);
 }
 main>div.five{
-  background-image: url(./imges/집1.jpg);
+  background-image: url(./imges/home1.jpg);
 }
 main>div.six{
-  background-image: url(./imges/집2.jfif);
+  background-image: url(./imges/home2.jfif);
 }
 main>div.seven>video{
   width: 100%;
