@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Paperlogy-8ExtraBold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+:root{
+  --color-bg: #fff;
+  --color-main: #fff;
+  --color-font: #222;
+}
+html{
+  /*** font-size 10px로 지정 ***/
+  font-size: 62.5%;  
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Paperlogy-8ExtraBold';  
+  font-size: 1rem;
+  background-color: var(--color-bg);
+  color: var(--color-font);  
+}
+main > section{
+  height: 100vh;
+}
+
+/*** header ***/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px; 
+}
+.logo{
+  text-align: center;
+}
+.logo>a{
+  color: #457ea9;
+}
+header>ul{
+  display: flex;
+  gap: 0 30px;
+}
+header>ul>li>a{
+  padding: 10px 20px;
+}
+header>ul>li>a:hover{
+  background-color: #eee;
+  border-radius: 5px;
+}
+header>a{
+  font-size: 1.5rem;
+  padding: 10px 20px;
+}
+header>a:hover{
+  background-color: #eee;
+  border-radius: 5px;
+}
+header>a:nth-child(1){
+  display: none;
+}
+/*** page1 ***/
+.page1{
+  height: 100vh;
+}
+.page1-img{
+  width: 100%;
+  height: 100%;
+  background-image: url(./imges/home.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page1-txt{
+  font-size: 2rem;
+  color: var(--color-main);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page1-txt>hr{
+  width: 100%;
+}
+.page1-txt>p:nth-of-type(1){
+  font-size: 1.5rem;
+  padding-top: 30px;
+}
+.page1-txt>h3{
+  padding-bottom: 30px;
+}
+.page1-txt>p:nth-of-type(2){
+  margin-top: 90px;
+}
+.page1-txt>p:nth-of-type(3){
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 30px;
+}
+/*** section menu ***/
+#menu{
+  display: flex;
+  flex-direction: column;
+}
+
+/*** page2 ***/
+.box1{
+  width: 100%;
+  display: flex;
+}
+.about{
+  width: 50%;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about>p:nth-child(1){
+  font-size: 3rem;
+  border-bottom: 2px solid #222;
+  padding-bottom: 20px;
+}
+.about>p:nth-child(2){
+  font-size: 2rem;
+  padding-top: 20px;
+}
+.process{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.process>div{
+  width: 50%;
+  height: 256px;
+  /* aspect-ratio: 1; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.process>div:nth-of-type(1){
+  background-image: url(./imges/harvest.jpg);
+}
+.process>div:nth-of-type(2){
+  background-image: url(./imges/rosting.jpg);
+}
+.process>div:nth-of-type(3){
+  background-image: url(./imges/coffee01.jpg);
+}
+.process>div:nth-of-type(4){
+  background-image: url(./imges/coffee02.jpg);
+}
+.process>div>a{
+  text-align: center;
+  color: var(--color-main);
+}
+.process>div>a>p{
+  font-size: 1.5rem;
+  margin: 20px;
+}
+.box2{
+  width: 100%;
+  display: flex;
+  color: var(--color-main);
+  font-size: 1.5rem;
+}
+.left{
+  width: 50%;
+  display: flex;
+}
+.bakery{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bakery>p{
+  font-size: 3rem;
+  text-align: center;
+  color: var(--color-font);
+}
+.t{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./imges/tiramisu.jpg);
+  background-size: cover;
+}
+.t>a>p{
+  text-align: center;
+  margin: 20px;
+}
+.desert{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.desert>div{
+  height: 256px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.desert>div:nth-last-of-type(1){
+  background-image: url(./imges/lemoncake.jpg);
+}
+.desert>div:nth-last-of-type(2){
+  background-image: url(./imges/orangecake.jpg);
+}
+.desert>div>a>p{
+  text-align: center;
+  margin: 20px;
+}
+
+/*** page3 ***/
+#cold{
+  font-size: 1.5rem;
+  color: var(--color-main);
+}
+.cold-txt{
+  height: 512px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 100px;
+  color: var(--color-font);
+}
+.cold-txt>p{
+  font-size: 3rem;
+  text-align: right;
+}
+.coffee{
+  height: 512px;
+  display: flex;
+}
+.coffee>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.coffee>div:nth-of-type(1){
+  flex: 1;
+  background-image: url(./imges/coffeebin.jpg);
+}
+.coffee>div:nth-of-type(2){
+  flex: 2;
+  background-image: url(./imges/extraction.jpg);
+}
+.coffee>div:nth-of-type(3){
+  flex: 1;
+  background-image: url(./imges/coldbrew.jpg);
+}
+
+/*** 모바일/태블릿 ***/
+@media screen and (max-width:1000px){
+  
+  /*** layout ***/
+  html{
+    font-size: 43.7%;  
+  }
+  main{
+    width: 100%;
+    min-width: 320px;
+  }
+  main > section{
+    height: auto;
+  }
+  .wrap{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  header>a:nth-child(1){
+    display: block;
+  }
+  header>ul{
+    display: none;
+  }
+  .page1-img,
+  .box1,
+  .box2,
+  .left,
+  .coffee
+  {
+    flex-direction: column;
+  }
+  
+  /*** 사이즈 변경 ***/
+  .page1-img{
+    height: 100%;
+  }
+  .page1-txt{
+    margin: 80px 0;
+  }
+  .page1-txt>p:nth-of-type(1){
+    font-size: 2rem;
+    padding-top: 10px;
+  }
+  .page1-txt>h3{
+    padding-bottom: 10px;
+  }
+  .about{
+    width: 100%;
+    height: 256px;
+  }
+  .process{
+    width: 100%;
+  }
+  .process>div{
+    width: 100%;
+    height: 300px;
+  }
+  .process>div{
+    margin-bottom: 30px;
+  }
+  .left{
+    width: 100%;
+  }
+  .bakery,
+  .t{
+    width: 100%;
+    height: 256px;
+  }
+  .t,
+  .desert>div{
+    margin-bottom: 30px;
+  }
+  .cold-txt{
+    height: 256px;
+  }
+  .coffee{
+    height: auto;
+  }
+  .coffee>div{
+    display: block;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  .coffee>div:nth-of-type(1),
+  .coffee>div:nth-of-type(2),
+  .coffee>div:nth-of-type(3){
+    flex: none;
+  }
+  .coffee>div>a{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
